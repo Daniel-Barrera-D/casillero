@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    padding: 1.5rem 1px;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.logo {
+    width: 95px;
+}

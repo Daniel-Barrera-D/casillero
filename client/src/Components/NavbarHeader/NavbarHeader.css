@@ -1,0 +1,16 @@
+.navbar-header {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    font-size: var(--text-sm);
+}
+
+.text-navbar {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.15s ease-in;
+}
+
+.text-navbar:hover { 
+    color: var(--hover);
+}

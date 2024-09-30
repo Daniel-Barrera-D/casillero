@@ -1,0 +1,48 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --text-xs: clamp(1rem, calc(1rem + 0vw), 1.2rem);
+	--text-sm: clamp(0.9rem, calc(1rem + 0.5vw), 1.1rem);
+	--text-base: clamp(1.4rem, calc(1rem + 1vw), 1.8rem);
+	--text-lg: clamp(1.6rem, calc(1rem + 1.5vw), 2.2rem);
+	--text-xl: clamp(1.8rem, calc(1rem + 2vw), 2.6rem);
+	--text-2xl: clamp(2rem, calc(1rem + 2.5vw), 3rem);
+	--text-3xl: clamp(2.5rem, calc(1rem + 12.5vw), 3.2rem);
+
+  background-color: #FBFBFE;
+
+  --hover: #E88A19;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  /* display: flex;
+  place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
