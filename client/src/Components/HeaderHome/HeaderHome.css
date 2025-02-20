@@ -1,11 +1,36 @@
 .header {
     display: flex;
     padding: 1.5rem 1px;
+    position: sticky;
     align-items: center;
     justify-content: center;
     gap: 6rem;
+    flex-flow: row wrap;
+    background-color: var(--bg);
 }
 
 .logo {
-    width: 95px;
+    width: 200px;
+}
+
+.visible {
+    top: 0;
+    transition: top .4s ease-out;
+}
+
+@media screen and (max-width: 480px){
+    
+    .header { 
+        gap: 0;
+        justify-content: stretch;
+    }
+
+    .logo { 
+        display: none;
+    }
+
+    .visible {
+        top: 0;
+        z-index: 1;
+    }
 }

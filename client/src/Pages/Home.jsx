@@ -1,9 +1,13 @@
 import HeaderHome from "../Components/HeaderHome/HeaderHome"
+import Start from "../Components/Start/Start"
 
 const Home = () => {
 
     return(
-        <HeaderHome/>
+        <>
+            <HeaderHome/>
+            <Start />
+        </>
     )
 }
 

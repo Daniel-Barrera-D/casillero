@@ -13,7 +13,8 @@
 
   background-color: #FBFBFE;
 
-  --hover: #E88A19;
+  --primary: #2255CC;
+  --bg: #FBFBFE;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

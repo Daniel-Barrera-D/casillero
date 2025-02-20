@@ -1,0 +1,44 @@
+.button-link {
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    transition: 0.15s ease-in;
+}
+
+.md {
+    width: 149px;
+    height: 18px;
+    border: solid 1px #000000;
+    border-radius: 30px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.lg {
+    width: 199px;
+    height: 28px;
+    border: solid 1px #000000;
+    border-radius: 30px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.white:hover {
+    color: #ffffff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.blue {
+    color: #ffffff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.blue:hover {
+    color: #000000;
+    background-color: var(--bg);
+    border-color: #000000;
+}
