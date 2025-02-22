@@ -32,8 +32,8 @@ const NavbarHeader = () => {
             </div>
             <nav className={`navbar-header ${ menu ? 'isActive' : ''}`}>
                 <Link to='/' className='text-navbar' onClick={() => handleCloseMenu()}>INICIO</Link>
-                <Link className='text-navbar' onClick={() => handleCloseMenu()}>NOSOTROS</Link>
-                <Link className='text-navbar' onClick={() => handleCloseMenu()}>GUÍA DE AYUDA</Link>
+                <Link className='text-navbar' onClick={() => handleCloseMenu()}>SOBRE NOSOTROS</Link>
+                <Link className='text-navbar' onClick={() => handleCloseMenu()}>TARIFAS</Link>
                 <Link className='text-navbar' onClick={() => handleCloseMenu()}>CALCULA TU ENVÍO</Link>
                 {/* <Link className='text-navbar' onClick={() => handleCloseMenu()}>INICIAR SESIÓN</Link> */}
                 <div className='buttons-navbar'>
