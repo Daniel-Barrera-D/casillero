@@ -26,6 +26,56 @@
     justify-content: space-evenly;
 }
 
+.fee-cellphone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fee-cellphone-text {
+    padding-right: 270px;
+}
+
+.fee-cellphone-image {
+    padding-left: 270px;
+    width: 632px;
+}
+
+.fee-cellphone-title {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.fee-cellphone-price {
+    font-size: var(--text-3xl);
+    font-weight: bold;
+    margin: 0;
+}
+
+.fee-cellphone-description {
+    margin: 0 0 20px 0;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.fee-cellphone-text p {
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+.fee-cellphone-subtitle {
+    color: var(--primary);
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1600px) {
+
+    .fee-cellphone-image {
+        padding-left: 150px;
+    }
+}
+
 @media screen and (max-width: 480px) {
 
     .fee-top-text {
@@ -38,5 +88,19 @@
         align-items: center;
         gap: 30px;
         padding: 20px 0 20px 0;
+    }
+
+    .fee-cellphone {
+        flex-direction: column;
+    }
+
+    .fee-cellphone-image {
+        width: 280px;
+        padding: 0;
+    }
+
+    .fee-cellphone-text {
+        padding: 0;
+        margin: 0 10px;
     }
 }
